@@ -4,7 +4,7 @@ from transformers import AutoTokenizer
 
 class InferlessPythonModel:
     def initialize(self):
-        model_id = "mistralai/Ministral-8B-Instruct-2410"
+        model_id = "mistralai/Mistral-7B-Instruct-v0.3"
         self.llm = LLM(model=model_id,gpu_memory_utilization=0.9,max_model_len=5000)
         self.tokenizer = AutoTokenizer.from_pretrained(model_id)
 
