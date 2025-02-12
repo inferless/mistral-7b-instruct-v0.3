@@ -1,9 +1,8 @@
-# Tutorial - Deploy Ministral-8B-Instruct using Inferless
-[Ministral-8B-Instruct](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) is an LLM developed by Mistral AI, specifically designed for instruction-based tasks. It features a dense transformer architecture with 8 billion parameters, 36 layers, context window of 128k tokens and vocabulary size of 131k, using the V3-Tekken tokenizer which allows it to process extensive inputs effectively. The model supports function calling, enhancing its ability to perform specific tasks based on user instructions.
+# Deploy Mistral-7B-Instruct-v0.3 using Inferless
+[Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) is an instruction-tuned version of Mistral AI's 7-billion-parameter language model, Mistral-7B-v0.3. This model has been fine-tuned to follow instructions, enhancing its performance in various tasks. Key improvements in this version include an expanded vocabulary of 32,768 tokens, support for the v3 tokenizer, and the ability to handle function calling. These enhancements enable the model to better understand and generate complex language structures, making it suitable for a wide range of applications. 
 
 ## TL;DR:
-- Deployment of Ministral-8B-Instruct model using [vllm](https://github.com/vllm-project/vllm).
-- You can expect an average tokens/sec of `78.27` and a latency of `3.05 sec` for generating a text of `256` tokens. This setup has an average cold start time of `30.43 sec`.
+- Deployment of Mistral-7B-Instruct-v0.3 model using [vllm](https://github.com/vllm-project/vllm).
 - Dependencies defined in `inferless-runtime-config.yaml`.
 - GitHub/GitLab template creation with `app.py`, `inferless-runtime-config.yaml` and `inferless.yaml`.
 - Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
