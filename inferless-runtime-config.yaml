@@ -1,0 +1,6 @@
+build:
+  cuda_version: "12.1.1"
+  python_packages:
+    - "vllm==0.6.3.post1"
+    - "transformers==4.45.2"
+    - "huggingface-hub==0.25.2"
