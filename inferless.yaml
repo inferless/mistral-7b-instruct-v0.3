@@ -1,6 +1,6 @@
 version: 1.0.0
 
-name: mistral-7b-instruct-v0.3
+name: mistral-7b-instruct-v0-3
 import_source: GIT
 
 # you can choose the options between ONNX, TENSORFLOW, PYTORCH
